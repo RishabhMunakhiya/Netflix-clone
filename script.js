@@ -32,6 +32,33 @@ tvshowsIcon.addEventListener("click", () => {
     window.location.href = "index.html";
 });
 
+// movies redirecting
+    const moviesIcon = document.querySelector("#movies");
+    moviesIcon.addEventListener("click", () => {
+    window.location.href = "movies.html";
+});
+
+// news redirecting
+    const newsIcon = document.querySelector("#news");
+    newsIcon.addEventListener("click", () => {
+    window.location.href = "news.html";
+});
+
+// mylist redirecting
+    const mylistIcon = document.querySelector("#mylist");
+    mylistIcon.addEventListener("click", () => {
+    window.location.href = "mylist.html";
+});
+
+// mylist redirecting
+    const playIcon = document.querySelector(".btn btn-play");
+    playIcon.addEventListener("click", () => {
+    window.location.href = "https://youtu.be/QlYrNC_1Xmk";
+});
+
+
+
+
 //-----------------redirecting------------------//
 
 // Movie card

@@ -125,7 +125,6 @@ body {
   background-color: #fff;
   color: #000;
 }
-
 .btn-play:hover {
   background-color: rgba(255, 255, 255, 0.75);
 }
@@ -138,6 +137,7 @@ body {
 .btn-more-info:hover {
   background-color: rgba(109, 109, 110, 0.4);
 }
+
 
 /* Movie Sections */
 .container {
