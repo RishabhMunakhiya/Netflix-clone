@@ -7,24 +7,32 @@ window.addEventListener("scroll", () => {
     navbar.classList.remove("scrolled");
   }
 });
-
+//---------------------redirecting---------//
 // Profile section redirecting
 const profileIcon = document.querySelector(".profile-icon");
 profileIcon.addEventListener("click", () => {
   window.location.href = "profile-details.html";
 });
 
-//home directing 
+//home redirecting
 const homeIcon = document.querySelector("#home");
 homeIcon.addEventListener("click", () => {
   window.location.href = "index.html";
 });
 
-//tvshow directing
+//tvshow redirecting
 const tvshowsIcon = document.querySelector("#tvshow");
 tvshowsIcon.addEventListener("click", () => {
   window.location.href = "Tvshows.html";
 });
+
+// logo redirecting
+    const netIcon = document.querySelector(".logo");
+    netIcon.addEventListener("click", () => {
+    window.location.href = "index.html";
+});
+
+//-----------------redirecting------------------//
 
 // Movie card
 const movieCard = document.querySelectorAll(".content-card");

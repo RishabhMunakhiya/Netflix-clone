@@ -1,12 +1,12 @@
 .profile-details-page {
   background-color: #141414;
-  min-height: 100vh;
+  min-height: 90vh;
   color: #fff;
 }
 
 .profile-details-container {
   max-width: 1500px;
-  margin: 0 auto;
+  margin: 60px auto;
   padding: 40px 20px;
 }
 
